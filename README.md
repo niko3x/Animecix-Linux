@@ -1,10 +1,12 @@
-# AnimeciX Windows
+# AnimeciX LİNUX
 
-[Click Here To see the English version](https://github.com/CaptainSP/animecix-desktop/blob/main/README-en.md)
+#### ÖNEMLİ
+tr: Google girişi çalışmamaktadır
+en: Google account login cant working
 
 -------
 
-[animecix.net](https://animecix.net) web sitesinin masaüstü uygulamasıdır.
+[animecix.net](https://animecix.net) windows için web sitesinin masaüstü uygulamasıdır.
 
 [Electron](https://www.electronjs.org/)  ile oluşturulmuştur. Typescript ile yazılmıştır.
 
@@ -43,17 +45,9 @@ npm run compile #Typescript derlemesi yapar ve gerekli JavaScript dosyalarını 
 npm start #Compile kodu ile birlikte Electron uygulamasını başlatır
 ```
 
-```sh
-npm run build #64 ve 32 bit Windows için kurulum dosyası oluşturur.
-```
+## Ana Proje Sahibinin İletişim Bilgileri
 
-```sh
-npm run build32 #Yalnızca 32 bit Windows için kurulum dosyası oluşturur.
-```
-
-## İletişim
-
-Herhangi bir sorunuzda benimle iletişim kurmaktan çekinmeyin.
+Herhangi bir sorunuzda onunla iletişim kurmaktan çekinmeyin.
 
 - [discord.gg/animecix](https://discord.com/invite/animecix) 
 - Discord: [CaptainSP#9999](https://discord.com/users/344220078465744896)
