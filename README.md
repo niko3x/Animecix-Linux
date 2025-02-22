@@ -46,7 +46,7 @@ npm run compile #Typescript derlemesi yapar ve gerekli JavaScript dosyalarını 
 npm start #Compile kodu ile birlikte Electron uygulamasını başlatır
 ```
 
-## Ana Proje Sahibinin İletişim Bilgileri
+## Asıl Proje Sahibinin İletişim Bilgileri
 
 Herhangi bir sorunuzda onunla iletişim kurmaktan çekinmeyin.
 
