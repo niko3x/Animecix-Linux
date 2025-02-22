@@ -42,7 +42,10 @@ AppImage dosyasını indirdikten sonra, dosyayı çalıştırabilmek için bazı
 
 Alternatif olarak, terminal üzerinden de şu komutu kullanabilirsiniz:
 
-chmod +x /path/to/your/file.AppImage
+chmod +x /path/to/your/animecix-1.3.0.AppImage  
+
+VEYA
+
 
 Bu komut, dosyaya çalıştırma izni verir.
 
