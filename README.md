@@ -2,6 +2,7 @@
 
 #### ÖNEMLİ
 tr: Google girişi çalışmamaktadır
+------------------------------
 en: Google account login cant working
 
 -------
