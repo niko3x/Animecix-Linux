@@ -6,15 +6,8 @@
   "scripts": {
     "compile": "tsc",
     "start": "npm run compile && electron .",
-    "buildTypes": "./node_modules/.bin/tsc",
-    "build": "electron-builder build --win --mac --x64 --ia32 --publish never",
-    "buildMac": "electron-builder build --mac --publish never",
-    "build32": "electron-builder build --win --ia32 --publish never",
-    "deploy": "electron-builder build --win --x64 --ia32 --publish always",
-    "deployMac": "electron-builder build --mac --publish always",
-    "deployDeb": "electron-builder build --linux deb --publish always",
-    "deployAppImage": "electron-builder build --win --mac --linux AppImage --x64 --arm64 --publish always",
-    "deploy32": "electron-builder build --win --ia32 --publish always"
+    "buildTypes": "tsc",
+    "buildAppImage": "electron-builder build --linux AppImage --x64 --arm64 --publish never"
   },
   "author": {
     "name": "CaptainSP",
