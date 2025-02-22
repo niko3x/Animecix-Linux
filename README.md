@@ -46,6 +46,7 @@ chmod +x /path/to/your/animecix-1.3.0.AppImage
 
 VEYA
 
+chmod +x /path/to/your/animecix-1.3.0-arm64.AppImage 
 
 Bu komut, dosyaya çalıştırma izni verir.
 
