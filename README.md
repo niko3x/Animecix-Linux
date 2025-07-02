@@ -7,7 +7,7 @@ tr: Google girişi çalışmamaktadır
 
 -------
 
-[animecix.net](https://animecix.net) windows için web sitesinin masaüstü uygulamasıdır.
+[animecix.net](https://animecix.net) web sitesinin masaüstü uygulamasıdır.
 
 [Electron](https://www.electronjs.org/)  ile oluşturulmuştur. Typescript ile yazılmıştır.
 
