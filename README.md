@@ -2,8 +2,8 @@
 
 #### ÖNEMLİ
 
-tr: Google girişi çalışmamaktadır 
-/ en: Google account login cant working
+tr: Google girişi çalışmamaktadır (artık çalışıyor)
+/ en: Google account login is not working (working now)
 
 -------
 
