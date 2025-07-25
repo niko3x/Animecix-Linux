@@ -6,6 +6,7 @@
   "scripts": {
     "compile": "tsc",
     "start": "npm run compile && electron .",
+    "build": "electron-builder --linux",
     "buildTypes": "tsc",
     "buildAppImage": "electron-builder build --linux AppImage --x64 --arm64 --publish never"
   },
@@ -22,9 +23,10 @@
   "dependencies": {
     "@cliqz/adblocker-electron": "^1.22.2",
     "@xhayper/discord-rpc": "^1.2.0",
-    "axios": "^0.21.1",
+    "axios": "^1.11.0",
     "electron-deeplink": "^1.0.10",
     "electron-updater": "^6.3.9",
+    "electron-window-state": "^5.0.3",
     "node-downloader-helper": "^1.0.18",
     "node-fetch": "^2.6.1",
     "node-gyp": "^9.0.0",
@@ -38,5 +40,27 @@
     "electron": "^34.2.0",
     "electron-builder": "^25.1.8",
     "typescript": "^4.5.4"
+  },
+  "build": {
+    "appId": "com.animecix.desktop",
+    "productName": "Animecix",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/{@types,.bin,electron-builder,typescript}",
+      "!src",
+      "!.gitignore",
+      "!tsconfig.json"
+    ],
+    "linux": {
+      "target": ["deb", "AppImage"],
+      "category": "Network",
+      "icon": "icons/icon.png"
+    },
+    "extraMetadata": {
+      "main": "main.js"
+    }
   }
 }
