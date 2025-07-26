@@ -9,7 +9,7 @@ Bu proje AnimeciX'in Linux'ta çalışması için ana koddan uyarlanmış bir un
 
 ## Hakkında
 
-[animecix.net](https://animecix.net) web sitesinin masaüstü uygulamasıdır.
+[animecix.tv](https://animecix.tv) web sitesinin masaüstü uygulamasıdır.
 [Electron](https://www.electronjs.org/) ile oluşturulmuştur. Typescript ile yazılmıştır.
 
 ## Kaynak
